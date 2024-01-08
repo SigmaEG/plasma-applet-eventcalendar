@@ -31,7 +31,7 @@ else
 	kpackagetool5 -t Plasma/Applet -i package
 fi
 
-if $restartPlasmashell; then
-	killall plasmashell
-	kstart5 plasmashell
-fi
+#if $restartPlasmashell; then
+	#killall plasmashell
+	#kstart5 plasmashell
+#fi
